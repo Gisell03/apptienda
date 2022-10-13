@@ -19,30 +19,104 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
-<main class="main-container">
-    <header class=" header">
-        <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #E0E8DF; ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="../img/img.png" alt="logo" width="100px"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./inicioadmin.php">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link" href="index.php">Añadir producto y ofertas<i class="fa-solid fa-user"></i></a>
-                  </li>
-                  <li class="nav-item  ">
-                    <a class="nav-link" href="./sesion/cerrar.php?cerrar=yes">cerrar sesion <i class="fa-solid fa-user" style= "margin-left: 5px"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>   
-    </main>
-</div>
 <body>
+<header>
+        <nav>
+            <a href="./inicioadmin.php">inicio</a>
+            <a href="index.php">Añadir producto y ofertas</a>
+            <a href="./sesion/cerrar.php?cerrar=yes">cerrar sesion<i class="fa-solid fa-arrow-right-from-bracket" style= "margin-left: 5px"></i></a>
+        </nav>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+</body>
+        <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 300px;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(147, 40%, 57%, 0.664), rgba(0, 0, 0, 0.007)), url(./../img/oficina.webp);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 28px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+</style>
