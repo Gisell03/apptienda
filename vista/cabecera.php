@@ -28,8 +28,8 @@
             <a href="admin/indexadmin.php">login<i class="fa-solid fa-arrow-right-from-bracket" style= "margin-left: 5px"></i></a>
         </nav>
         <section class="textos-header">
-            <h1>Bienvenido a nuestra sesion de productos</h1>
-            <h1>¡Aprovecha y llevate el tuyo!</h1>
+            <h1>BIENVENIDOS QUERIDOS USUARIOS</h1>
+            <h1>En nuestra pagina encontraran productos de calidady de buen precio</h1>
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
                 style="height: 100%; width: 100%;">
