@@ -28,6 +28,7 @@ if($_POST){
   <div class="container">
     <div class="left">
       <div class="login">LOGIN</div>
+        <p>Corre y contraseña: admin</p>
     </div>
     <div class="right">
       <svg viewBox="0 0 320 300">
